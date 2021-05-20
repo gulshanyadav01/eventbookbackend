@@ -5,7 +5,7 @@ const {graphqlHTTP} = require("express-graphql");
 const {buildSchema} = require("graphql"); 
 
 const app = express(); 
-app.use(bodyParser.json()); 
+// app.use(bodyParser.json()); 
 
 const events = []; 
 
@@ -64,4 +64,4 @@ app.use('/app', graphqlHTTP({
     graphiql: true
 })); 
 
-app.listen(5000)
+app.listen(5000); 
