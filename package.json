@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon -e app.js"
+    "start": "node server",
+    "server": "nodemon server"
   },
   "author": "gulshan yadav",
   "license": "ISC",
@@ -13,7 +14,8 @@
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "express-graphql": "^0.12.0",
-    "graphql": "^15.5.0"
+    "graphql": "^15.5.0",
+    "mongoose": "^5.12.10"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
